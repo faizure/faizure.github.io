@@ -1,1 +1,4 @@
 <h1> Welcome to my web! </h1>
+
+//Audio Link MP3
+  function play() {var audio = new Audio('kopet.mp3');audio.play();audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false);}        
